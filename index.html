@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li>Game</li>
+        </ul>
+    </nav>
+    </header>
+<div id="celebration" class="celebration">
+    <div class="celebration-message" id="celebration_message">
+        <h1>Congratulations</h1>
+        <p id="winner-name"></p>
+        <div>
+        <button id="playagain">Play again</button>
+        <button id="cancel">Cancel</button>
+        </div>
+        <button id="new_game">Start New Game</button>
+    </div>
+</div>
+    <aside class="wincon" id="wincon">
+        <div class="reg">
+            <h3>Welcome in This Game</h3>
+            <div>
+                <div class="playercon">
+                <label><h2>Players:</h2></label>
+                <div class="inp">
+                        <div id="chek" class="radio-input">
+
+                        <label class="label">
+                            <input value="Single" name="value-radio" checked class="chek2" id="value-1" type="radio" />
+                            <span class="text" for="value-1">Single</span>
+                        </label>
+
+                        <label class="label">
+                            <input value="Duo" name="value-radio" id="value-2" class="chek2" type="radio" />
+                            <span class="text" for="value-2"> Duo Play</span>
+                        </label>
+                        </div>
+
+
+                </div> 
+            </div>
+            <div class="align">
+                <div class="container" id="inp1">
+                    <input  type="text" name="text" class="input" >
+                    <label class="label">Enter Your Name</label>
+                </div>
+                <div class="container" id="inp2">
+                    <input  type="text" name="text" class="input">
+                    <label class="label">Player2 Name</label>
+                </div>
+            </div>
+            </div>
+            <button class="btn" id="btn">Start</button>
+        </div>
+        <div class="winer">Start</div>
+    </aside>
+    <main>
+        <div class="info">
+            <h2>Turn of <i id="player"></i></h2>
+        </div>
+        <!-- <aside class="wincon">
+            hello
+        </aside> -->
+        <div class="gamecon">
+            <div class="gamecon1">
+                <div class="con bt bl"><span class="con2"></span></div>
+                <div class="con bt"><span class="con2"></span></div>
+                <div class="con bt br"><span class="con2"></span></div>
+                <div class="con bl"><span class="con2"></span></div>
+                <div class="con"><span class="con2"></span></div>
+                <div class="con br"><span class="con2"></span></div>
+                <div class="con bl bb"><span class="con2"></span></div>
+                <div class="con bb"><span class="con2"></span></div>
+                <div class="con bb br"><span class="con2"></span></div>
+            </div>
+            </div>
+    </main>
+</body>
+<script src="feature.js"></script>
+<script src="scripts.js"></script>
+</html>
